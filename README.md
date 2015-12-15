@@ -15,7 +15,7 @@ step-2. In humhub/protected/humhub/config/web.php
 			'generators' => [
 					'crud' => [
 							'class' => 'app\modules\generator\Generator',
-							'templates' => ['tejrajs' => '@app/modules/generator/deafult']
+							'templates' => ['deafults' => '@app/modules/generator/deafult']
 					]
 			],
 			'allowedIPs'=>['127.0.0.1','*'],
