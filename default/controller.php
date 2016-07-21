@@ -17,7 +17,7 @@ namespace <?= $generator->getControllerNamespace() ?>;
  * @author <?=$generator->author?>
  */
 
-class DefaultController extends humhub\components\Controller
+class <?=ucwords($generator->moduleID)?>Controller extends \humhub\components\Controller
 {
     public function actionIndex()
     {

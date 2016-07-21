@@ -4,7 +4,7 @@ echo "<?php\n";
 //use humhub\widgets\TopMenu;
 
 return [
-    'id' => 'mail',
+    'id' => '<?=$generator->moduleID?>',
     'class' => '<?=$generator->moduleClass?>',
     'namespace' => '<?=$generator->moduleNamespace()?>',
     'events' => [
